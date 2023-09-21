@@ -34,7 +34,7 @@ include 'components/save_send.php';
 
 <!-- home section starts  -->
 
-<div class="home">
+<div class="index">
 
    <section class="center">
 

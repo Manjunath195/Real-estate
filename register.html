@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Contact Us</title>
+   <title>Register</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -21,7 +21,7 @@
 
    <nav class="navbar nav-1">
       <section class="flex">
-         <a href="home.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
+         <a href="index.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
 
          <ul>
             <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
@@ -83,71 +83,25 @@
 
 <!-- header section ends -->
 
-<!-- contact section starts  -->
+<!-- register section starts  -->
 
-<section class="contact">
+<section class="form-container">
 
-   <div class="row">
-      <div class="image">
-         <img src="images/contact-img.svg" alt="">
-      </div>
-      <form action="" method="post">
-         <h3>get in touch</h3>
-         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
-         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
-         <input type="number" name="number" required maxlength="10" max="9999999999" min="0" placeholder="enter your number" class="box">
-         <textarea name="message" placeholder="enter your message" required maxlength="1000" cols="30" rows="10" class="box"></textarea>
-         <input type="submit" value="send message" name="send" class="btn">
-      </form>
-   </div>
+   <form action="" method="post">
+      <h3>create an account!</h3>
+      <input type="tel" name="name" required maxlength="50" placeholder="enter your name" class="box">
+      <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+      <input type="password" name="pass" required maxlength="20" placeholder="enter your password" class="box">
+      <input type="password" name="c_pass" required maxlength="20" placeholder="confirm your password" class="box">
+      <p>already have an account? <a href="login.html">register now</a></p>
+      <input type="submit" value="register now" name="submit" class="btn">
+   </form>
 
 </section>
 
-<!-- contact section ends -->
+<!-- register section ends -->
 
-<!-- faq section starts  -->
 
-<section class="faq" id="faq">
-
-   <h1 class="heading">FAQ</h1>
-
-   <div class="box-container">
-
-      <div class="box active">
-         <h3><span>how to cancel booking?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-      <div class="box active">
-         <h3><span>when will I get the possession?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-      <div class="box">
-         <h3><span>where can I pay the rent?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-      <div class="box">
-         <h3><span>how to contact with the buyers?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-      <div class="box">
-         <h3><span>why my listing not showing up?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-      <div class="box">
-         <h3><span>how to promote my listing?</span><i class="fas fa-angle-down"></i></h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis ducimus aut accusantium sunt error esse laborum cumque ipsum ab.</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- faq section ends -->
 
 
 
@@ -173,9 +127,8 @@
 
          <a href="#"><i class="fas fa-map-marker-alt"></i><span>Bangalore, india - 560050</span></a>
       </div>
-
       <div class="box">
-         <a href="home.html"><span>home</span></a>
+         <a href="index.html"><span>home</span></a>
          <a href="about.html"><span>about</span></a>
          <a href="contact.html"><span>contact</span></a>
          <a href="listings.html"><span>all listings</span></a>
@@ -185,14 +138,14 @@
       <div class="box">
          <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
          <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
-       
+        
          <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
 
       </div>
 
    </section>
 
-   
+
 </footer>
 
 <!-- footer section ends -->
